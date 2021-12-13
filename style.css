@@ -1,0 +1,184 @@
+nav i{
+  color: white;
+}
+
+nav a{
+  background-color: #212529;
+}
+
+p img{
+  border-radius: 10px;
+  border: 2px solid red;
+  margin: 0;
+}
+
+nav{
+  border: 5px dotted red;
+}
+
+*{
+  background: #4d4d4d;
+}
+
+nav div{
+  background-color: #212529;
+}
+
+nav p{
+  background-color: #212529;
+  margin: 0;
+}
+
+body{
+}
+
+.main{
+  display: flex;
+  flex: 100%;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.top{
+  justify-content: center;
+  display: flex;
+  flex: 100%;
+}
+
+#mainPic{
+  float: left;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.info1{
+  background: #404040;
+  border: 2px solid #a9a9a9;
+}
+
+.info1 li, .info1 ul{
+  color: #a9a9a9;
+  margin: 3%;
+  background: #404040;
+  font-size: 100%;
+}
+
+.info1, .carControl, .map, .chat{
+  margin: 1%;
+  float: right;
+  width: 45%;
+}
+
+.carControl{
+  height: 100%;
+}
+
+.review{
+  margin: 1%;
+  float: left;
+  width: 92%;
+  background: #404040;
+  border: 2px solid #a9a9a9;
+  text-align: center;
+}
+
+.review p{
+  background: #404040;
+  color: #a9a9a9;
+}
+
+.review a{
+  background: #404040;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  background: #404040;
+  color: #a9a9a9;
+}
+
+.chat{
+  background: #404040;
+  border: 2px solid #a9a9a9;
+}
+
+.chat form{
+  margin: 5%;
+  background: #404040;
+}
+
+.map iframe{
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+  text-align: center;
+  background: #404040;
+  color: #a9a9a9;
+}
+
+label{
+  color: #a9a9a9;
+  background: #404040;
+}
+
+input{
+  width: 100%;
+  color: #a9a9a9;
+}
+
+.submit{
+  background: #a9a9a9;
+  color: #404040;
+  margin-top: 4%;
+}
+
+.thankyou{
+  text-align: center;
+  float: left;
+}
+
+.thankyou img{
+  margin: 1%;
+  border: 5px dotted red;
+  border-radius: 50%;
+}
+
+.thankyou .text{
+  background: #404040;
+  border: 2px solid #a9a9a9;
+}
+
+.text a, .text a h3{
+  background: #404040;
+}
+
+@media screen and (max-width: 998px){
+  .info1 h1{
+    font-size: 150%;
+  }
+  .info1 li{
+    font-size: 85%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info1 h1{
+    font-size: 110%;
+  }
+  li{
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .info1, .map, .chat{
+    width: 92%;
+  }
+  .carControl{
+    display: none;
+  }
+}
